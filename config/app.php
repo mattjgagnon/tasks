@@ -124,9 +124,9 @@ return [
     ],
 
     'providers' => [
-        Modules\Tags\Providers\TagsServiceProvider::class,
-        Modules\Tasks\Providers\TasksServiceProvider::class,
-        Modules\Users\Providers\UsersServiceProvider::class,
+        \App\Modules\Tags\Providers\TagsServiceProvider::class,
+        \App\Modules\Tasks\Providers\TasksServiceProvider::class,
+        \App\Modules\Users\Providers\UsersServiceProvider::class,
     ],
 
 ];
