@@ -1,5 +1,9 @@
 <?php
 
+use App\Modules\Tags\Providers\TagsServiceProvider;
+use App\Modules\Tasks\Providers\TasksServiceProvider;
+use App\Modules\Users\Providers\UsersServiceProvider;
+
 return [
 
     /*
@@ -124,9 +128,9 @@ return [
     ],
 
     'providers' => [
-        \App\Modules\Tags\Providers\TagsServiceProvider::class,
-        \App\Modules\Tasks\Providers\TasksServiceProvider::class,
-        \App\Modules\Users\Providers\UsersServiceProvider::class,
+        TagsServiceProvider::class,
+        TasksServiceProvider::class,
+        UsersServiceProvider::class,
     ],
 
 ];
