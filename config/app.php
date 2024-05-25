@@ -127,10 +127,4 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'providers' => [
-        TagsServiceProvider::class,
-        TasksServiceProvider::class,
-        UsersServiceProvider::class,
-    ],
-
 ];
