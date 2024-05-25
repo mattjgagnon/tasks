@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use App\Modules\Tags\Database\Migrations\CreateTagsTable;
 use App\Modules\Tasks\Database\Migrations\CreateTasksTable;
-use App\Modules\Users\Database\Migrations\CreateUsersTable;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
